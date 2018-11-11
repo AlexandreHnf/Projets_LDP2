@@ -1,0 +1,30 @@
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("bonjour");
+		//vect0 v1 = new vect0(); 
+//		vect0 V1 = new vect0();
+//		vect0 V2 = new vect0();
+//		V1.print_vect();
+//		V1.insert(1); V1.insert(2);
+//		V2.insert(3); V2.insert(4);
+//		V1.print_vect(); V2.print_vect();
+//		V1.add(V2);
+//		V1.print_vect(); V2.print_vect();
+//		System.out.println(V1.prod_scal(V2, 0, V1.size()));
+//		V1.print_vect(); V2.print_vect();
+		int[] l1 = new int[] {1,1,1,1,1,1}; 
+		vect0 V3 = new vect0(l1);
+		int[] l2 = new int[] {2,2,2,2,2,2};
+		vect0 v4 = new vect0(l2);
+		V3.print_vect(); v4.print_vect();
+		V3.add(v4);
+		V3.print_vect(); v4.print_vect();
+		System.out.println(V3.prod_vect(v4));
+	}
+
+}

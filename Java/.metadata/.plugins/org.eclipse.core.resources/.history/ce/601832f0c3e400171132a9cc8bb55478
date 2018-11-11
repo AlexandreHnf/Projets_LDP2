@@ -1,0 +1,104 @@
+
+public class vect0 {
+
+	private int array[];
+	private int size;
+	private static final int NB_THREADS = 1;
+	
+	public vect0() {
+		System.out.println("Constructeur par défaut");
+		array = new int[10];
+		size = 0;
+	}
+	
+	public vect0(int[] elements) {
+		System.out.println("Constructeur avec array");
+		array = new int[elements.length];
+		for (int i=0; i < elements.length; ++i) {
+			array[i] = elements[i];
+		}
+		size = elements.length;
+	}
+	
+	public int size() {
+		return this.size;
+	}
+	
+	public int get_elem(int i) {
+		return array[i];
+	}
+	
+	public void set_elem_add(int i, int e) {
+		array[i] = e;
+	}
+	
+	public void insert(int elem){
+		array[size] = elem;
+		size += 1;
+	}
+	
+	public void add(vect0 v2) {
+		//CHECKER SI BORNES VALIDES ET TAILLES VECTEURS VALIDES
+		System.out.println("Addition vectorielle");
+		int task = size / (NB_THREADS+1);
+		System.out.println(task);
+		Thread[] thread_tab = new Thread[NB_THREADS];
+		int b = 0; int j = 0;
+		while (b < size && j < NB_THREADS) {
+			System.out.print(b);
+			System.out.print(b+task);
+			thread_tab[j] = new Thread(new Sum(this, v2, b, b+task));
+			b+=task; j+=1;
+		}
+		
+		for (int k=0; k < NB_THREADS; ++k) {
+			thread_tab[k].start();
+		}
+		
+		//int inf = 3; int sup = 6;
+		//Thread thread = new Thread(new Sum(this, v2, inf, sup));
+		//Thread thread = new Thread(new Test());
+		//thread.start();
+		//int inf = 0; int sup = inf + task;
+		for (int i=0; i < task; ++i) {
+			System.out.print(array[i]);
+			System.out.print(v2.array[i]);
+			array[i] += v2.array[i];
+		}
+		System.out.println();
+		//thread.join();
+	}
+	
+	public int prod_scal(vect0 v2, int inf, int sup){
+		//CHECKER SI BORNES VALIDES ET TAILLES VECTEURS VALIDES
+		System.out.println("Produit vectoriel");
+		//Thread thread = new Thread(new Prod(this, v2, inf, sup));
+		//thread.start()
+		int res = 0;
+		for (int i=inf; i < sup; ++i) {
+			res += array[i] * v2.array[i];
+		}
+		return res;
+	}
+	
+	public void print_vect() {
+		if (size == 0) {
+			System.out.println("Array: []");
+		}
+		else {
+			System.out.print("Array: [");
+			for (int i=0; i<size; ++i) {
+				System.out.print(array[i]);
+				if (i<size-1) {
+					System.out.print(", ");
+				}
+			}
+			System.out.println("]");
+		}
+	}
+	
+	public void run() {
+		this.print_vect();
+	}
+
+}

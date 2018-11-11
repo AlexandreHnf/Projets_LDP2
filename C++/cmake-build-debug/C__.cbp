@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C__">
+				<Option output="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/C__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C__/fast">
+				<Option output="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/C__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alexandre_hnf/Desktop/BA2/LDP/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/CircBidirLinkedList.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/CircBidirLinkedList.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/List.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/List.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Listes (version orientée objet)-20171129/List.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Listes (version orientée objet)-20171129/List.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect6.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect6.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect7.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect7.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect8.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect8.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect9.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/Vect9.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/VectB.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/VectX.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/Vecteurs (versions orientées-objets)-20171129/VectX.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/main.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/min_max.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/min_max.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/tableau.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/tableau.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/home/alexandre_hnf/Desktop/BA2/LDP/C++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

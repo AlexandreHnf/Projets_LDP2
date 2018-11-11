@@ -1,0 +1,16 @@
+TODO:
+-modulo
+--> de iterator
+
+Changements Tableau:
+
+-insert_back OK
+-begin OK
+-end OK
+-front OK
+pop_front OK
+insert OK 
+cout (aller de first_busy a first_busy + size) OK
+-constructeur copie/op assignation OK
+-constructeur transfert/op transfert OK
+-operator == et != OK

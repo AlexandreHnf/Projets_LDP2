@@ -1,0 +1,26 @@
+
+public class Sum implements Runnable {
+	
+	private vect0 v1; //vecteur result
+	private vect0 v2; //L'autre vecteur a additionner
+	private int inf;
+	private int sup;
+	
+	public Sum(vect0 v1, vect0 v2, int inf, int sup) {
+		this.v1 = v1;
+		this.v2 = v2; 
+		this.inf = inf;
+		this.sup = sup;
+	}
+	
+	public void run() {
+		int tmp;
+		for (int i=inf; i < sup; ++i) {
+			//v1.array[i] += v2.array[i];
+			tmp = v1.get_elem(i) + v2.get_elem(i);
+			System.out.printlnt(tmp);
+			v1.set_elem(i, tmp);
+		}
+	}
+
+}

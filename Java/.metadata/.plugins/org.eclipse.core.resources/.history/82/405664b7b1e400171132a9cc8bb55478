@@ -1,0 +1,11 @@
+
+public class Test implements Runnable{
+
+	/**
+	 * @param args
+	 */
+	public void run() {
+		System.out.println("oui");
+	}
+
+}
